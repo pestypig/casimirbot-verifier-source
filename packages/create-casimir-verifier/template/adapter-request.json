@@ -1,0 +1,14 @@
+{
+  "traceId": "hello-verifier-001",
+  "mode": "constraint-pack",
+  "pack": {
+    "id": "repo-convergence",
+    "telemetry": {
+      "build": { "status": 1 },
+      "tests": { "status": 1 },
+      "schema": { "contracts": 1 },
+      "deps": { "coherence": 1 },
+      "timeToGreenMs": 120000
+    }
+  }
+}

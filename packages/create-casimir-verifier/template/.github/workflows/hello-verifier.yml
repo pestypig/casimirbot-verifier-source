@@ -1,0 +1,30 @@
+name: Hello Verifier
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  hello-verifier:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      CASIMIR_PUBLIC_BASE_URL: https://casimirbot.com
+      CASIMIR_TOKEN: ${{ secrets.CASIMIR_TOKEN }}
+      CASIMIR_TENANT: ${{ secrets.CASIMIR_TENANT }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Hello Verifier
+        run: npm run verify

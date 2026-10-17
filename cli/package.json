@@ -1,0 +1,38 @@
+{
+  "name": "shadow-of-intent",
+  "version": "0.1.0",
+  "description": "Shadow of Intent verification CLI (adapter run + trace export).",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "shadow-of-intent",
+    "verification",
+    "agents",
+    "constraints",
+    "cli"
+  ],
+  "bin": {
+    "shadow-of-intent": "./bin/shadow-of-intent.js",
+    "shadow-of-intent-collect": "./bin/shadow-of-intent-collect.js",
+    "shadow-of-intent-verify": "./bin/shadow-of-intent-verify.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md",
+    "*.ts",
+    "tsconfig.json",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.11",
+    "typescript": "^5.6.3"
+  },
+  "private": true
+}

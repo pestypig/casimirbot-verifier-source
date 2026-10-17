@@ -1,0 +1,26 @@
+{
+  "name": "create-casimir-verifier",
+  "version": "0.1.0",
+  "description": "Scaffold a Casimir verifier template repo.",
+  "type": "module",
+  "bin": {
+    "create-casimir-verifier": "./bin/create-casimir-verifier.mjs"
+  },
+  "files": [
+    "bin/",
+    "template/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "casimir",
+    "verifier",
+    "scaffold",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}

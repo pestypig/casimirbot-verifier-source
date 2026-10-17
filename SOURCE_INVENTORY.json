@@ -1,0 +1,141 @@
+{
+  "schema": "casimirbot.verifier_source_allowlist.v1",
+  "status": "source-only-publication-reviewed",
+  "files": [
+    {
+      "path": "cli/README.md",
+      "sha256": "31686d6ea1ca456f7fb02c6857245cce7619a29b50e294753fe7e661a5732c70",
+      "bytes": 3143
+    },
+    {
+      "path": "cli/bin/casimir-verify.js",
+      "sha256": "ba31a6a93132093a7e6553ae5ee99539d727d1b1f8e874bf56f20bd988abec5d",
+      "bytes": 301
+    },
+    {
+      "path": "cli/bin/casimir.js",
+      "sha256": "5b6fea33ef2c218b6addefd9f08aa200cc1febd69f21b5cd939aa220b2b54379",
+      "bytes": 147
+    },
+    {
+      "path": "cli/bin/shadow-of-intent-collect.js",
+      "sha256": "23663e2b5e571dea720a69642461262accaf2c5b640ca8a0ca18ac20b9613c07",
+      "bytes": 57
+    },
+    {
+      "path": "cli/bin/shadow-of-intent-verify.js",
+      "sha256": "acc0f64ab0bd17edc9f96621a401faf701b3e98a21d1620ddedd7ba40c37503b",
+      "bytes": 198
+    },
+    {
+      "path": "cli/bin/shadow-of-intent.js",
+      "sha256": "c57b0316add5a14f7adfa75bb4f14b9d3354aca447210ffbf94108c5c1abaf1e",
+      "bytes": 58
+    },
+    {
+      "path": "cli/casimir-collect.ts",
+      "sha256": "2fd187f7a9f19c355efbfe705152c230053fece9c0467610333b8b43a67ed03e",
+      "bytes": 34003
+    },
+    {
+      "path": "cli/casimir-verify.ts",
+      "sha256": "f3f60a250ee60b9dd571561cb853bb52d672b018517e604a063180ba8bcb04c2",
+      "bytes": 84867
+    },
+    {
+      "path": "cli/package.json",
+      "sha256": "c63e16629daa39ba162d6092946c6b7273ad79859c3dcd32805c45c42d803f9f",
+      "bytes": 779
+    },
+    {
+      "path": "cli/shadow-of-intent.ts",
+      "sha256": "c14bd106a683aed500302ccf56cbdca11c0be9529578d1c447a252e37e1a7d35",
+      "bytes": 1258
+    },
+    {
+      "path": "cli/tsconfig.json",
+      "sha256": "65409b68a3c5cc3f6fc626fca19955a3c1cbd68c2c1ff8c2f0af5188e17516fe",
+      "bytes": 370
+    },
+    {
+      "path": "packages/create-casimir-verifier/LICENSE",
+      "sha256": "d2ad01b7f9a41b728135d18d838648f1dfa6f6784cd99707ae8b50fce26f6957",
+      "bytes": 1067
+    },
+    {
+      "path": "packages/create-casimir-verifier/README.md",
+      "sha256": "3eae7caebab6f8aa1076f7e638271274019697854abd7a85bdf9a12a55c416c6",
+      "bytes": 819
+    },
+    {
+      "path": "packages/create-casimir-verifier/bin/create-casimir-verifier.mjs",
+      "sha256": "0b67232f37f8765e72da249bea31bab614edd12a12f8a0e61656d4de57c027e6",
+      "bytes": 4395
+    },
+    {
+      "path": "packages/create-casimir-verifier/package.json",
+      "sha256": "b4f9eb0b3d15fcf458eda6678f86d6d586cb4950af0cfc16dcea49e2d73af770",
+      "bytes": 443
+    },
+    {
+      "path": "packages/create-casimir-verifier/template/.github/workflows/hello-verifier.yml",
+      "sha256": "e926c29bbb2a272bc43bbf8222defc44fb08990df9d7bbd998c4774b05fd5a61",
+      "bytes": 620
+    },
+    {
+      "path": "packages/create-casimir-verifier/template/README.md",
+      "sha256": "8f08360d640f05a91bb14db4a9835d1bc7ee0586f66afc8716fa4c61f6075fbb",
+      "bytes": 1628
+    },
+    {
+      "path": "packages/create-casimir-verifier/template/adapter-request.json",
+      "sha256": "8de2c12ed1b7afdde8faa70560c3226a0c04d0877e11b8d4ac6a931bbe7175c6",
+      "bytes": 303
+    },
+    {
+      "path": "packages/create-casimir-verifier/template/package.json",
+      "sha256": "bc3064951de23f7ed9f280413789e0a0cd1511069f83d4cbc309ba8c0e6c345e",
+      "bytes": 391
+    },
+    {
+      "path": "packages/create-casimir-verifier/template/sdk-example.mjs",
+      "sha256": "5e141647febad35f15da2924210ddb247208027b08abf5dd1ad652a998f6d3eb",
+      "bytes": 801
+    },
+    {
+      "path": "sdk/README.md",
+      "sha256": "b79de4d2f9baac3aa95d8f79f9db682bb204f38481aee94a7641c50948b619e8",
+      "bytes": 3275
+    },
+    {
+      "path": "sdk/package.json",
+      "sha256": "03ef1214b00c052bb863714982d1cb594d10ef4fd2af92c98caa44cd2928049b",
+      "bytes": 758
+    },
+    {
+      "path": "sdk/src/client.ts",
+      "sha256": "1c6a112c446a88fb71349f42fb62e0c4c93902832f3592e445021d58212b4b2a",
+      "bytes": 10024
+    },
+    {
+      "path": "sdk/src/index.ts",
+      "sha256": "15be1c16611fbc35f37ef34e773cce7c86894584ca7226cde306bd2de0913c15",
+      "bytes": 1501
+    },
+    {
+      "path": "sdk/src/runtime.ts",
+      "sha256": "1d045bc2ab1b3b0757e65164b8fd54a906605890f6487200d082a6cdd4738b82",
+      "bytes": 20288
+    },
+    {
+      "path": "sdk/src/types.ts",
+      "sha256": "302e5e4f4fa616ae188e52e940cbfb679a737f01f48cfe8d2b93aae1bef2cbd8",
+      "bytes": 7147
+    },
+    {
+      "path": "sdk/tsconfig.json",
+      "sha256": "befbe44a4e2ad17cbddfb6bfbeb95b7e389fb6aab3360571c05b58a80d90333a",
+      "bytes": 345
+    }
+  ]
+}
